@@ -4,6 +4,10 @@
 
 @layer base {
     html {
-        font-family: 'Montserrat', system-ui, sans-serif;
+        font-family: Montserrat, system-ui, sans-serif;
     }
+}
+
+ion-icon {
+    color: rgb(159, 159, 159);
 }

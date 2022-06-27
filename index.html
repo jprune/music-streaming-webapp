@@ -11,10 +11,68 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Space+Mono&display=swap" rel="stylesheet">
 
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/solid.css">
     <title>DEETLIFY</title>
 </head>
-<body>
-    
+<body class="bg-dark-blue text-white">
+    <header class="my-5 mx-5 flex flex-row justify-between items-center">
+        <a href="#"><ion-icon size="large" name="grid"></ion-icon></a>
+        <h1 class="text-3xl font-bold bg-gradient-to-r from-cyan-500 to-deep-violet text-transparent bg-clip-text">DEETLIFY</h1>
+        <a href="#"><ion-icon size="large" name="settings"></ion-icon></a>
+    </header>
+    <main class="mx-5 py-5">
+        <!--Search bar-->
+        <input class="bg-[#353A49] text-center text-dark-blue text-lg w-full rounded-full py-3" type="text" placeholder="&#xf002; Search by music" style="font-family: Arial, 'Font Awesome 5 Free'" />
+        
+        <!--Personal playlist browser-->
+        <ul class="py-10 flex overflow-x-scroll">
+            <li class="flex flex-col items-center pr-6 flex-shrink-0">
+                <img class="w-16 h-16 rounded-2xl" src="./resources/grid_you.png" alt="you+">
+                <p class="text-md pt-2">You</p>
+            </li>
+            <li class="flex flex-col items-center pr-6 flex-shrink-0">
+                <img class="w-16 h-16 rounded-2xl" src="./resources/Grod_Women_1.jpeg" alt="Jane">
+                <p class="text-md pt-2">Jane</p>
+            </li>
+            <li class="flex flex-col items-center pr-6 flex-shrink-0 aspect-square">
+                <img class="w-16 h-16 rounded-2xl" src="./resources/Grid_Man_1.jpeg" alt="Tobi">
+                <p class="text-md pt-2">Tobi</p>
+            </li>
+            <li class="flex flex-col items-center pr-6 flex-shrink-0">
+                <img class="w-16 h-16 rounded-2xl" src="./resources/Grid_Man_2.jpeg" alt="Adam">
+                <p class="text-md pt-2">Adam</p>
+            </li>
+            <li class="flex flex-col items-center pr-6 flex-shrink-0">
+                <img class="w-16 h-16 rounded-2xl" src="./resources/Grid_Women_2.png" alt="Feli">
+                <p class="text-md pt-2">Feli</p>
+            </li>
+            <li class="flex flex-col items-center flex-shrink-0 pr-6 ">
+                <img class="w-16 h-16 rounded-2xl" src="./resources/Grid_Women_3.jpeg" alt="Carla">
+                <p class="text-md pt-2">Carla</p>
+            </li>
+        </ul>
+
+        <!--Inspiration area-->
+        <div>
+           <h3 class="text-lg font-semibold">Made for you</h3>
+            <ul class="flex overflow-x-scroll pt-5">
+                <li class="flex flex-col items-center flex-shrink-0 pr-6">
+                    <img class="w-32 h-32 rounded-xl" src="./resources/Grid_mood-1.jpeg" alt="Road">
+                    <p class="text-md pt-2">Road</p>
+                </li>
+                <li class="flex flex-col items-center flex-shrink-0 pr-6">
+                    <img class="w-32 h-32 rounded-xl" src="./resources/Grid_mood_2.jpeg" alt="Summer">
+                    <p class="text-md pt-2">Summer</p>
+                </li>
+                <li class="flex flex-col items-center flex-shrink-0 pr-6">
+                    <img class="w-32 h-32 rounded-xl" src="./resources/Grid_mood_3.jpeg" alt="Workout">
+                    <p class="text-md pt-2">Workout</p>
+                </li>
+            </ul> 
+        </div>
+    </main>
+    <!--ICON script-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
