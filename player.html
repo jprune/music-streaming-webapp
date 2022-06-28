@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="./output-style.css" rel="stylesheet">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Space+Mono&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/solid.css">
+    <title>DEETIFY - Player</title>
+</head>
+<body class="bg-dark-blue text-white">
+    <header class="w-full bg-dark-blue p-5 flex flex-row justify-start fixed top-0">
+        <a href="./index.html"><ion-icon size="large" name="chevron-back-outline"></ion-icon></a>
+    </header>
+
+    <main class="pt-16">
+        <!--Album cover-->
+        <div class="p-10 w-full">
+            <img class="rounded-3xl" src="./resources/album_cover_tiesto.jpeg" alt="album cover the business tiesto">
+        </div>
+
+        <!--Player-->
+        <div class="bg-black rounded-t-[45px] flex flex-col px-10 pt-7">
+            <!--Artist and Like-->
+            <div class="flex flex-row justify-between items-center pb-14">
+                <div>
+                    <h1 class="text-3xl pb-2">Tiesto</h1>
+                    <h3>The Business</h3>
+                </div>
+                <div>
+                    <ion-icon class="text-deep-violet" size="large" name="heart"></ion-icon>
+                </div>
+            </div>
+
+            <!--Time played-->
+            <div class="pb-10">
+                <div class="bg-white rounded overflow-hidden">
+                    <div class="w-1/3 bg-deep-violet p-1 rounded-sm"></div>
+                </div>
+                <div class="flex flex-row justify-between text-sm pt-2">
+                    <p>01:34</p>
+                    <p>04:01</p>
+                </div>
+            </div>
+
+            <!--Controls-->
+            <div class="flex flex-row justify-center pb-24">
+                <ion-icon class="w-14 h-14" size="large" name="play-skip-back-outline"></ion-icon>
+                <ion-icon class="ml-5 mr-5 w-14 h-14 text-deep-violet bg-gray-800 rounded" size="large" name="play"></ion-icon>
+                <ion-icon class="w-14 h-14" size="large" name="play-skip-forward-outline"></ion-icon>
+            </div>
+        </div>
+    </main>
+
+    <Footer>
+        <div class="w-full flex flex-col items-center rounded-t-[45px] fixed bottom-0 bg-gray-800">
+            <ion-icon size="large" name="remove-outline"></ion-icon>
+            <h2 class="pb-4">Show lyrics</h2>
+        </div>
+        <!--
+        <ul class="flex w-full p-5 justify-between bg-black rounded-full fixed bottom-0">
+            <li><a href="./index.html"><ion-icon size="large" name="home"></ion-icon></a></li>
+            <li><ion-icon size="large" name="search-circle"></ion-icon></li>
+            <li><a href="./player.html"><ion-icon size="large" name="musical-notes"></ion-icon></a></li>
+            <li><a href="./mymusic.html"><ion-icon size="large" name="albums"></ion-icon></a></li>
+            <li><ion-icon size="large" name="person-circle"></ion-icon></li>
+        </ul>-->
+    </Footer>
+    <!--ICON script-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

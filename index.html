@@ -12,12 +12,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Space+Mono&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/solid.css">
-    <title>DEETLIFY</title>
+    <title>DEETIFY</title>
 </head>
 <body class="bg-dark-blue text-white">
-    <header class="my-5 mx-5 flex flex-row justify-between items-center">
+    <header class="w-full bg-dark-blue p-5 flex flex-row justify-between items-center fixed top-0">
         <a href="#"><ion-icon size="large" name="grid"></ion-icon></a>
-        <h1 class="text-3xl font-bold bg-gradient-to-r from-cyan-500 to-deep-violet text-transparent bg-clip-text">DEETLIFY</h1>
+        <h1 class="text-3xl font-bold bg-gradient-to-r from-cyan-500 to-deep-violet text-transparent bg-clip-text">DEETIFY</h1>
         <a href="#"><ion-icon size="large" name="settings"></ion-icon></a>
     </header>
     <main class="mx-5 py-5">
@@ -72,8 +72,41 @@
             <div>
                 <img class="w-80 rounded-2xl mt-6" src="./resources/weekly_mix.webp" alt="your weekly mix">
             </div>
+            <div>
+                <img class="w-80 rounded-2xl mt-6" src="./resources/weekly_mix.webp" alt="your weekly mix">
+            </div>
+            <div>
+                <img class="w-80 rounded-2xl mt-6" src="./resources/weekly_mix.webp" alt="your weekly mix">
+            </div>
+            <div>
+                <img class="w-80 rounded-2xl mt-6" src="./resources/weekly_mix.webp" alt="your weekly mix">
+            </div>
         </div>
     </main>
+    <Footer>
+        <!--music player-->
+        <div class="w-full bg-deep-violet flex fixed bottom-9 justify-between px-10 pt-4 pb-14 rounded-t-[45px]">
+            <div class="flex flex-row items-center">
+                <img class="w-16 pr-2" src="./resources/album_cover.jpeg" alt="album cover">
+                <div class="flex flex-col">
+                    <h4>Title/Track name</h4>
+                    <h6>ARTIST</h6>
+                </div>
+            </div>
+            <div class="flex justify-between items-center">
+                <ion-icon size="large" name="play-skip-back-circle-outline"></ion-icon>
+                <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                <ion-icon size="large" name="play-skip-forward-circle-outline"></ion-icon>
+            </div>
+        </div>
+        <ul class="flex w-full p-5 justify-between bg-black rounded-full fixed bottom-0">
+            <li><a href="./index.html"><ion-icon size="large" name="home"></ion-icon></a></li>
+            <li><ion-icon size="large" name="search-circle"></ion-icon></li>
+            <li><a href="./player.html"><ion-icon size="large" name="musical-notes"></ion-icon></a></li>
+            <li><a href="./mymusic.html"><ion-icon size="large" name="albums"></ion-icon></a></li>
+            <li><ion-icon size="large" name="person-circle"></ion-icon></li>
+        </ul>
+    </Footer>
     <!--ICON script-->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
