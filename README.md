@@ -7,4 +7,4 @@ To continue I created a sketch of the webapp followed by a mockup.
 
 I layed special interest in horizontal sliders as well as sticked and functional headers and footers.
 
-**Technology:** HTML & CSS(Tailwindcss)
+**Technology:** HTML & CSS(Tailwindcss), ionicons & googlefonts
